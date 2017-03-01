@@ -1,9 +1,11 @@
-## OWner info
+# OWner info
 This is a proyect to PI U de A 
 ##Commit1: 
 First step of tour-of-heroes tutorial, The Hero Editor
 ##Commit2:
 Master/Detail of tour-of-heroes tutorial, creating an interactive list of heroes with css styles 
+##Commit3: 
+Multiple Coponents of tour-of-heroes tutorial, organizing our code into separate components to gain reusability.
 
 # TourOfHeroes
 
