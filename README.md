@@ -8,8 +8,10 @@ Master/Detail of tour-of-heroes tutorial, creating an interactive list of heroes
 Multiple Components of tour-of-heroes tutorial, organizing our code into separate components to gain reusability.
 ##Commit4:
 Services of tour-of-heroes tutorial, implementation of a service class to provide a list of heroes, it can be shared by many components.
-##Commit4:
+##Commit5:
 Routing of tour-of-heroes tutorial, creating router link to navigate among different components. Also create multiple components with its .html and .css temmplates to more understandable aplication structure
+##Commit6:
+HTTP of tour-of-heroes tutorial, creating a simulation of web service api and adding some funcionality to become the app in a great app with nice details like search and add heroes input box. This is the final of tutorial, was a great experience and I am so far to know A2 framework, but is a good approximation.
 
 # TourOfHeroes
 
