@@ -13,6 +13,9 @@ Routing of tour-of-heroes tutorial, creating router link to navigate among diffe
 ##Commit6:
 HTTP of tour-of-heroes tutorial, creating a simulation of web service api and adding some funcionality to become the app in a great app with nice details like search and add heroes input box. This is the final of tutorial, was a great experience and I am so far to know A2 framework, but is a good approximation.
 
+#Create new branch
+Crete a new branch to add functionality using material design on angular, you can find information about it on https://material.angular.io/ site. Here was implemented md-card and md-radio and md-radio-group, also add some images to show heroes
+
 # TourOfHeroes
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22-1.
