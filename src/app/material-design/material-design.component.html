@@ -1,0 +1,28 @@
+<md-card *ngIf="hero" class="trivia">
+  <md-card-header>
+    <md-card-title>Wellcome to the Hero Trivia</md-card-title>
+    <md-card-subtitle>Today with {{hero.name}} </md-card-subtitle>
+  </md-card-header>
+  
+  <img md-card-image [src]="hero.imgPath" alt="Hero image"
+    class="hero-img">
+
+  <md-card-content>
+      <p>Can you say how many years old are {{hero.name}}? </p>
+      <div>
+        <md-radio-group [(ngModel)]="selectedOption" (change)="checkTrivia()"
+        [disabled]="disabled" >
+          <md-radio-button value="{{hero.age}}" [checked]="checked" >
+            {{hero.age}}</md-radio-button>
+          <md-radio-button *ngFor="let age of ages" [value]="age" [checked]="checked" >
+            {{age}}</md-radio-button>         
+        </md-radio-group>
+        <div *ngIf="selected">You are {{answer}}</div>
+      </div>
+  </md-card-content>
+
+  <md-card-actions>
+    <button md-button (click)="randomHero()" class="control-button">NEXT TRIVIA</button>
+  </md-card-actions>
+
+</md-card>
